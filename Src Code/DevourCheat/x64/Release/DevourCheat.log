@@ -1,0 +1,29 @@
+﻿  dllmain.cpp
+D:\VS2022Projects\DevourCheat\DevourCheat\Devour\il2cpp_devourhack.hpp(37,5): error C2065: 'cout': undeclared identifier
+D:\VS2022Projects\DevourCheat\DevourCheat\Devour\il2cpp_devourhack.hpp(37,57): error C2065: 'endl': undeclared identifier
+  Cache.cpp
+  Data.cpp
+  Callback.cpp
+  Class.cpp
+  String.cpp
+  Thread.cpp
+  Main.cpp
+  Camera.cpp
+  Component.cpp
+  GameObject.cpp
+  LayerMask.cpp
+  Object.cpp
+  Rigidbody.cpp
+  Transform.cpp
+  _TEMPLATE_API.cpp
+  Obfuscators.cpp
+  Helper.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  Compiling...
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  kiero.cpp
