@@ -4,13 +4,9 @@
 extern std::vector<Unity::CGameObject*> PlayerList(NULL);
 extern Unity::CGameObject* LocalPlayer = NULL;
 
-void GetPlayersThread() {
-    /*
-    * Will always lop and get the players + the localplayer
-    * This runs in a separate thread to avoid lags because we're fetching the components
-    * Used as a "cache" - sorta
-    * I use this instead of my good old corroutine
-    */
+void GetPlayersThread() 
+{
+
     IL2CPP::Thread::Attach(IL2CPP::Domain::Get());
     while (1) {
         PlayerList.clear();
